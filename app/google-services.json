@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "291590258468",
+    "firebase_url": "https://fitquiz-c1db3-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "fitquiz-c1db3",
+    "storage_bucket": "fitquiz-c1db3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291590258468:android:4634c1753f246d69607db1",
+        "android_client_info": {
+          "package_name": "com.example.tester"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMPBn1iaaoL7Mh6vMu7rjgWfRPcRNTobM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
