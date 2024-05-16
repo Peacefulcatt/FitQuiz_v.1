@@ -18,27 +18,17 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:background="@drawable/rounded_corner"
-        android:backgroundTint="@color/blue"
+        android:backgroundTint="@color/purple"
         android:padding="8dp"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Quizzy App"
+            android:text="Fitness Quiz"
             android:gravity="center"
             android:textSize="34sp"
             android:letterSpacing="0.1"
-            android:textColor="@color/white"
-            android:textStyle="bold"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Lets solve this quiz to enhance your knowledge about fitness and wellness."
-            android:gravity="center"
-            android:textSize="18sp"
-            android:layout_margin="16dp"
             android:textColor="@color/white"
             android:textStyle="bold"/>
 
@@ -48,7 +38,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="All items"
+        android:text="Categories"
         android:layout_marginTop="16dp"
         android:layout_marginStart="4dp"
         android:textSize="20sp"
