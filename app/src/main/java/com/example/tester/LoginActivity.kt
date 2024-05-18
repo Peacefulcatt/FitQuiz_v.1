@@ -75,7 +75,7 @@ class LoginActivity : AppCompatActivity() {
                         sharedPreferences.edit().clear().apply()
                     }
                     // Redirect to the main activity
-                    startActivity(Intent(this, QuizMainActivity::class.java))
+                    startActivity(Intent(this, WelcomeActivity::class.java))
                     finish()
                 } else {
                     // If sign in fails, display a message to the user.

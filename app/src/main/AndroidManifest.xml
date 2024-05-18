@@ -32,6 +32,9 @@
             android:name=".QuizMainActivity"
             android:exported="false">
         </activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="false"/>
     </application>
 
 </manifest>

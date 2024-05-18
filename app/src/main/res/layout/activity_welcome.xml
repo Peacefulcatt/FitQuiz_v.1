@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_an_option"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_marginTop="40dp"/>
+
+        <ImageButton
+            android:layout_marginTop="50dp"
+            android:id="@+id/button_quiz"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="30dp"
+            android:src="@drawable/fitness_quiz_image"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/quiz_image_button"
+            android:background="?android:attr/selectableItemBackgroundBorderless"/>
+
+        <ImageButton
+            android:id="@+id/button_chatbot"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="30dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/chatbot_image_button"
+            android:scaleType="fitXY"
+            android:src="@drawable/chatbot" />
+        <Button
+            android:id="@id/button_Logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/log_out"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+</RelativeLayout>
