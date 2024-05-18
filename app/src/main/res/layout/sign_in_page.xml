@@ -59,11 +59,11 @@
                         android:layout_marginTop="10sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Username"
+                        android:text="E-mail"
                         android:textSize="18sp"/>
 
                     <EditText
-                        android:id="@+id/text_register"
+                        android:id="@+id/text_login"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 

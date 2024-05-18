@@ -8,7 +8,7 @@ import com.example.tester.databinding.ActivityMainBinding
 import com.google.firebase.database.FirebaseDatabase
 
 
-class MainActivity : AppCompatActivity() {
+class QuizMainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
     lateinit var quizModelList : MutableList<QuizModel>
     lateinit var adapter: QuizListAdapter
@@ -20,8 +20,6 @@ class MainActivity : AppCompatActivity() {
 
         quizModelList = mutableListOf()
         getDataFromFirebase()
-
-
     }
 
     private fun setupRecyclerView(){
