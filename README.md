@@ -31,8 +31,7 @@ To install FitQuiz on your Android device:
 1. **Register/Login:** Use the app's secure authentication to create an account or log in.
 2. **Start a Quiz:** Choose from a variety of fitness and wellness quizzes.
 3. **Answer Questions:** Engage with the interactive quiz format and earn points for correct answers.
-4. **Track Progress:** Monitor your progress through levels and achievements.
-5. **Future Updates:** Stay tuned for updates that will enhance your experience with AI recommendations and social features.
+4. **Future Updates:** Stay tuned for updates that will enhance your experience with AI recommendations and social features.
 
 ## Development
 
