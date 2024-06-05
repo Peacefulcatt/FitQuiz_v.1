@@ -13,6 +13,10 @@
         android:theme="@style/Theme.Tester"
         tools:targetApi="31" >
         <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            />
+        <activity
             android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
@@ -22,19 +26,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RegisterActivity"
-            android:exported="false"
-            />
+            android:name=".WelcomeActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".QuizMainActivity"
+            android:exported="false"/>
         <activity
             android:name=".QuizActivity"
             android:exported="false" />
-        <activity
-            android:name=".QuizMainActivity"
-            android:exported="false">
-        </activity>
-        <activity
-            android:name=".WelcomeActivity"
-            android:exported="false"/>
     </application>
 
 </manifest>

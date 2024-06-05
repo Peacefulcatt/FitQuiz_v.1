@@ -38,4 +38,5 @@ class WelcomeActivity : AppCompatActivity() {
             Toast.makeText(this, "Chatbot is under construction", Toast.LENGTH_SHORT).show()
         }
     }
+
 }

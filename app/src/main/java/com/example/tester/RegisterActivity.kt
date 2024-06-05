@@ -1,5 +1,6 @@
 package com.example.tester
 
+import android.content.Intent
 import android.os.Bundle
 import android.text.TextUtils
 import android.util.Log
@@ -53,6 +54,7 @@ class RegisterActivity : AppCompatActivity() {
                     Log.d("RegisterActivity", "createUserWithEmail:success")
                     Toast.makeText(this, "Registration successful.", Toast.LENGTH_SHORT).show()
                     // Redirect to the login activity
+                    startActivity(Intent(this, WelcomeActivity::class.java))
                     finish()
                 } else {
                     // If sign up fails, display a message to the user.
