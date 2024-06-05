@@ -1,7 +1,3 @@
-Certainly! Here is a sample README file for your FitQuiz project:
-
----
-
 # FitQuiz
 
 FitQuiz is an innovative mobile application designed to promote wellness and fitness through an engaging, quiz-based format. The app leverages gamification techniques to enhance user motivation and knowledge in the areas of fitness and wellness. Developed using Android Studio and Kotlin, FitQuiz uses Firebase for secure user authentication and real-time data synchronization.
@@ -63,7 +59,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For any questions or feedback, please contact [Your Name] at [your-email@example.com].
-
----
-
-This README file provides a comprehensive overview of the FitQuiz application, including features, installation instructions, usage guidelines, development tools, contribution guidelines, and contact information. Adjust the details as necessary to accurately reflect your project.
