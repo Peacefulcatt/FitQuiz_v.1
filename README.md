@@ -1,3 +1,4 @@
+# Umut YILDIZ 20201179
 # FitQuiz
 
 FitQuiz is an innovative mobile application designed to promote wellness and fitness through an engaging, quiz-based format. The app leverages gamification techniques to enhance user motivation and knowledge in the areas of fitness and wellness. Developed using Android Studio and Kotlin, FitQuiz uses Firebase for secure user authentication and real-time data synchronization.
